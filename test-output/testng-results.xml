@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26499" started-at="2023-02-02T12:31:39 IST" finished-at="2023-02-02T12:32:06 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26499" started-at="2023-02-02T12:31:39 IST" finished-at="2023-02-02T12:32:06 IST">
+      <class name="TestClass">
+        <test-method status="PASS" signature="browser()[pri:0, instance:TestClass@780cb77]" name="browser" is-config="true" duration-ms="13076" started-at="2023-02-02T12:31:39 IST" finished-at="2023-02-02T12:31:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="credentialt()[pri:0, instance:TestClass@780cb77]" name="credentialt" is-config="true" duration-ms="7171" started-at="2023-02-02T12:31:52 IST" finished-at="2023-02-02T12:32:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentialt -->
+        <test-method status="PASS" signature="manager()[pri:0, instance:TestClass@780cb77]" name="manager" duration-ms="74" started-at="2023-02-02T12:32:00 IST" finished-at="2023-02-02T12:32:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manager -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:TestClass@780cb77]" name="result" is-config="true" duration-ms="241" started-at="2023-02-02T12:32:00 IST" finished-at="2023-02-02T12:32:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=manager status=SUCCESS method=TestClass.manager()[pri:0, instance:TestClass@780cb77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="end()[pri:0, instance:TestClass@780cb77]" name="end" is-config="true" duration-ms="5879" started-at="2023-02-02T12:32:00 IST" finished-at="2023-02-02T12:32:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
